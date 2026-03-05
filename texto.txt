@@ -1,0 +1,13 @@
+diccionario = {
+    "nombre": "Juan",
+    "edad": 30,
+    "ciudad": "Madrid"
+}
+claves = diccionario.keys()
+print(claves)
+obtener_valor_x = diccionario.get("nombre")
+print(obtener_valor_x)
+obtener_todos_los_valores = diccionario.values()
+print(obtener_todos_los_valores)
+obtener_todas_las_pares = diccionario.items()
+print(obtener_todas_las_pares)
